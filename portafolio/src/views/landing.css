@@ -42,6 +42,13 @@
   gap: 24px;
   position: sticky;
   top: 0;
+  z-index: 100;
+  padding: 12px 24px;
+  margin: -12px -24px 0;
+  background: rgba(15, 44, 89, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 0 0 18px 18px;
 }
 
 .brand {
@@ -238,10 +245,32 @@
   background: var(--cream-3);
 }
 
+.tech-categories {
+  display: grid;
+  gap: 32px;
+}
+
+.tech-category-title {
+  font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: rgba(241, 211, 179, 0.5);
+  margin: 0 0 12px;
+}
+
 .tech-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: 18px;
+}
+
+.tech-note {
+  margin-top: 28px;
+  font-size: 0.95rem;
+  font-style: italic;
+  color: rgba(241, 211, 179, 0.7);
 }
 
 .tech-card {
@@ -324,6 +353,21 @@
   text-align: center;
   font-size: 0.9rem;
   color: rgba(241, 211, 179, 0.8);
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 10px;
 }
 
 @media (max-width: 900px) {
