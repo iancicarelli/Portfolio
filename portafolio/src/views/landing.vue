@@ -131,105 +131,149 @@
           <h2>Tecnologías</h2>
           <p>Stack técnico y herramientas usadas en proyectos académicos y profesionales.</p>
         </div>
-        <div class="tech-categories">
-          <div class="tech-category">
-            <h4 class="tech-category-title">Lenguajes</h4>
-            <div class="tech-grid">
-              <div class="tech-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
-                <span>Python</span>
-              </div>
-              <div class="tech-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
-                <span>JavaScript</span>
-              </div>
-              <div class="tech-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
-                <span>Java</span>
-              </div>
+        <div class="carousel-wrapper">
+          <div class="carousel-track">
+            <!-- Primera copia -->
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+              <span>Python</span>
             </div>
-          </div>
-          <div class="tech-category">
-            <h4 class="tech-category-title">Frontend</h4>
-            <div class="tech-grid">
-              <div class="tech-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" alt="Vue.js" />
-                <span>Vue.js</span>
-              </div>
-              <div class="tech-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
-                <span>React</span>
-              </div>
-              <div class="tech-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angular/angular-original.svg" alt="Angular" />
-                <span>Angular</span>
-              </div>
-              <div class="tech-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" />
-                <span>Flutter</span>
-              </div>
-              <div class="tech-card">
-                <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
-                  <circle cx="32" cy="32" r="30" fill="#352f44" />
-                  <text x="32" y="40" text-anchor="middle" font-size="28" font-family="Barlow Condensed, Arial, sans-serif" fill="#fff4ef">R</text>
-                </svg>
-                <span>Reflex</span>
-              </div>
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+              <span>JavaScript</span>
             </div>
-          </div>
-          <div class="tech-category">
-            <h4 class="tech-category-title">Backend</h4>
-            <div class="tech-grid">
-              <div class="tech-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" />
-                <span>Node.js</span>
-              </div>
-              <div class="tech-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot" />
-                <span>Spring Boot</span>
-              </div>
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
+              <span>Java</span>
             </div>
-          </div>
-          <div class="tech-category">
-            <h4 class="tech-category-title">Bases de Datos</h4>
-            <div class="tech-grid">
-              <div class="tech-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" />
-                <span>MySQL</span>
-              </div>
-              <div class="tech-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" />
-                <span>PostgreSQL</span>
-              </div>
-              <div class="tech-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" />
-                <span>MongoDB</span>
-              </div>
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" alt="Vue.js" />
+              <span>Vue.js</span>
             </div>
-          </div>
-          <div class="tech-category">
-            <h4 class="tech-category-title">Herramientas</h4>
-            <div class="tech-grid">
-              <div class="tech-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" />
-                <span>Docker</span>
-              </div>
-              <div class="tech-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" />
-                <span>Linux</span>
-              </div>
-              <div class="tech-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
-                <span>Git</span>
-              </div>
-              <div class="tech-card">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" />
-                <span>Figma</span>
-              </div>
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+              <span>React</span>
+            </div>
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angular/angular-original.svg" alt="Angular" />
+              <span>Angular</span>
+            </div>
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" />
+              <span>Flutter</span>
+            </div>
+            <div class="tech-card">
+              <img src="https://avatars.githubusercontent.com/u/104714959?s=200&v=4" alt="Reflex" />
+              <span>Reflex</span>
+            </div>
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" />
+              <span>Node.js</span>
+            </div>
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot" />
+              <span>Spring Boot</span>
+            </div>
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" />
+              <span>MySQL</span>
+            </div>
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" />
+              <span>PostgreSQL</span>
+            </div>
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" />
+              <span>MongoDB</span>
+            </div>
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" />
+              <span>Docker</span>
+            </div>
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" />
+              <span>Linux</span>
+            </div>
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
+              <span>Git</span>
+            </div>
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" />
+              <span>Figma</span>
+            </div>
+            <!-- Segunda copia (duplicado para efecto seamless) -->
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+              <span>Python</span>
+            </div>
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+              <span>JavaScript</span>
+            </div>
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
+              <span>Java</span>
+            </div>
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" alt="Vue.js" />
+              <span>Vue.js</span>
+            </div>
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+              <span>React</span>
+            </div>
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angular/angular-original.svg" alt="Angular" />
+              <span>Angular</span>
+            </div>
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" />
+              <span>Flutter</span>
+            </div>
+            <div class="tech-card">
+              <img src="https://avatars.githubusercontent.com/u/104714959?s=200&v=4" alt="Reflex" />
+              <span>Reflex</span>
+            </div>
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" />
+              <span>Node.js</span>
+            </div>
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot" />
+              <span>Spring Boot</span>
+            </div>
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" />
+              <span>MySQL</span>
+            </div>
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" />
+              <span>PostgreSQL</span>
+            </div>
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" />
+              <span>MongoDB</span>
+            </div>
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" />
+              <span>Docker</span>
+            </div>
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" />
+              <span>Linux</span>
+            </div>
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
+              <span>Git</span>
+            </div>
+            <div class="tech-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" />
+              <span>Figma</span>
             </div>
           </div>
         </div>
-        <p class="tech-note">Actualmente profundizando en Kubernetes.</p>
+        <p class="tech-note">Actualmente profundizando en Docker y Kubernetes.</p>
       </section>
 
       <section id="projects" class="section projects">
